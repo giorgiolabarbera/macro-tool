@@ -73,7 +73,7 @@ endloop
 ```
 
 ## Build
-`gcc main.c -o macro.exe -luser32`
+```gcc main.c -o macro.exe -luser32```
 
 ## Notes
 
