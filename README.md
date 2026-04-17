@@ -51,17 +51,17 @@ Marks the end of a loop block
 
 
 ## Example 1: Simple loop
-
+```ini
 click=100,200
 wait=500
 loop=3
 click=200,300
 wait=200
 endloop
-
+```
 
 ## Example 2: Nested loops
-
+```
 loop=2
 click=100,100
 wait=200
@@ -72,7 +72,7 @@ wait=100
 endloop
 
 endloop
-
+```
 
 ## Notes
 
