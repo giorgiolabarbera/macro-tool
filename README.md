@@ -46,6 +46,7 @@ Repeat the following block N times
 endloop  
 Marks the end of a loop block
 
+Lines starting with `#` are treated as comments.
 
 ## Example 1: Simple loop
 ```ini
