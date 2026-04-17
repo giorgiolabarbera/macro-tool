@@ -1,21 +1,17 @@
 # Macro Tool
 
-Simple Windows macro tool written in C.
-Supports mouse automation with clicks, waits, and nested loops.
-
+Simple Windows __macro tool__ coded in C executes mouse actions from a configuration file.
+Supports mouse automation with **clicks**, **waits**, and **nested loops**.
 
 ## Features
-
 - Left click, right click, double click
 - Custom wait (milliseconds)
 - Loop support
 - Nested loops
 - Simple '.ini' configuration file
 
-
 ## Usage
-
-1. Create or edit 'macro.ini'
+1. Create or edit '**macro.ini**'
 2. Write your macro using the supported commands
 3. Run the executable
 
@@ -61,7 +57,7 @@ endloop
 ```
 
 ## Example 2: Nested loops
-```
+```ini
 loop=2
 click=100,100
 wait=200
