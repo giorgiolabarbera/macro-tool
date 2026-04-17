@@ -12,8 +12,9 @@ Supports mouse automation with **clicks**, **waits**, and **nested loops**.
 
 ## Usage
 1. Create or edit '**macro.ini**'
-2. Write your macro using the supported commands
-3. Run the executable
+2. Place **macro.ini** in the same directory as the executable
+3. Write your macro using the supported commands
+4. Run the executable
 
 The program will execute the actions sequentially.
 
