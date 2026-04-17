@@ -19,7 +19,7 @@ The program will execute the actions sequentially.
 
 ## Syntax
 
-Each line in `macro.ini` represents an action.
+Each line in **macro.ini** represents an action.
 
 ### Click
 click=X,Y  
