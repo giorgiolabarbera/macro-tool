@@ -1,7 +1,7 @@
 # Macro Tool
 
-Simple Windows __macro tool__ coded in C executes mouse actions from a configuration file.
-Supports mouse automation with **clicks**, **waits**, and **nested loops**.
+A simple Windows __macro tool__ written in C that executes mouse actions from a configuration file.
+It supports **clicks**, **waits**, and **nested loops**.
 
 ## Features
 - Left click, right click, double click
