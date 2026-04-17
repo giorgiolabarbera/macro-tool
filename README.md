@@ -72,6 +72,9 @@ endloop
 endloop
 ```
 
+## Build
+`gcc main.c -o macro.exe -luser32`
+
 ## Notes
 
 - Coordinates depend on screen resolution and DPI settings
