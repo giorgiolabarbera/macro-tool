@@ -11,7 +11,7 @@ It supports **clicks**, **waits**, and **nested loops**.
 - Simple '.ini' configuration file
 
 ## Usage
-1. Create or edit '**macro.ini**'
+1. Create or edit **macro.ini**
 2. Place **macro.ini** in the same directory as the executable
 3. Write your macro using the supported commands
 4. Run the executable
@@ -84,6 +84,12 @@ gcc main.c -o macro.exe -luser32
 - The program does not support games using DirectX input
 - Indentation or leading spaces are not allowed in the configuration file
 
+## Tools
+
+This repository also includes additional tools to help create macros:
+
+- **Coordinate Picker** (tools/coordinate_picker.c)  
+  Capture mouse coordinates using hotkeys and generate commands like **click**, **rclick**, and **dbclick** ready for your **macro.ini**.
 
 ## Error Handling
 
